@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hospital.AdminController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane fx:id="pane" prefHeight="700.0" prefWidth="1030.0" style="-fx-background-color: #273746;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+            <children>
+                <AnchorPane layoutX="55.0" layoutY="148.0" prefHeight="448.0" prefWidth="1168.0">
+                    <children>
+                        <ImageView fitHeight="447.0" fitWidth="1217.0" layoutX="-38.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Image/Saint_Bernard_Parish_Hospital_Chalmette_8_October_2016_12.jpg" />
+                            </image>
+                        </ImageView>
+                  <Button fx:id="admin" layoutX="309.0" layoutY="402.0" mnemonicParsing="false" onAction="#adminOnAction" prefHeight="56.0" prefWidth="322.0" text="ADMIN" textFill="#22a39a">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                  </Button>
+                    </children>
+                </AnchorPane>
+                <Button fx:id="home" layoutX="176.0" layoutY="82.0" mnemonicParsing="false" onAction="#home_action" prefHeight="25.0" prefWidth="87.0" style="-fx-background-radius: 10;" text="HOME" textFill="#1ab0d9" />
+                <Button fx:id="service" layoutX="339.0" layoutY="82.0" mnemonicParsing="false" onAction="#service_action" style="-fx-background-radius: 10;" text="SERVICE" textFill="#17b1cf" />
+                <Button fx:id="doctor" layoutX="483.0" layoutY="82.0" mnemonicParsing="false" onAction="#doctor_action" style="-fx-background-radius: 10;" text="DOCTOR" textFill="#28a5d7" />
+                <Button fx:id="contact" layoutX="629.0" layoutY="82.0" mnemonicParsing="false" onAction="#contact_action" style="-fx-background-radius: 10;" text="CONTACT US" textFill="#14aed0" />
+                <Button fx:id="about" layoutX="824.0" layoutY="82.0" mnemonicParsing="false" onAction="#about_action" style="-fx-background-radius: 10;" text="ABOUT US" textFill="#19b4bc" />
+                <TextField layoutX="766.0" layoutY="31.0" prefHeight="25.0" prefWidth="167.0" promptText="search anything" />
+                <Button layoutX="335.0" layoutY="31.0" mnemonicParsing="false" text="Button" visible="false" />
+                <Button layoutX="14.0" layoutY="19.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="385.0" style="-fx-background-radius: 10;" text="Button" />
+                <Label layoutX="25.0" layoutY="19.0" prefHeight="49.0" prefWidth="363.0" style="-fx-background-color: SILVER;" text="HOSPITAL MANAGEMENT SYSTEM" textFill="#947d40">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Label>
+            <Circle fill="DODGERBLUE" layoutX="160.0" layoutY="93.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="282.0" layoutY="97.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="319.0" layoutY="97.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="420.0" layoutY="95.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="452.0" layoutY="95.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="567.0" layoutY="96.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="599.0" layoutY="96.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="745.0" layoutY="92.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="784.0" layoutY="93.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="928.0" layoutY="95.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>

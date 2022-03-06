@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="516.0" prefWidth="668.0" style="-fx-background-color: #ECF0F1;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hospital.ViewController">
+   <children>
+      <Label layoutX="84.0" layoutY="101.0" prefHeight="32.0" prefWidth="132.0" text="Patient Name:" textFill="#0a0317">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="161.0" prefHeight="32.0" prefWidth="132.0" text="Disease :" textFill="#030314">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="228.0" prefHeight="32.0" prefWidth="132.0" text="Date :" textFill="#03040d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="284.0" prefHeight="32.0" prefWidth="132.0" text="Time :" textFill="#030417">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" layoutX="251.0" layoutY="101.0" prefHeight="32.0" prefWidth="156.0" text="name" textFill="#220905">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="disease" layoutX="251.0" layoutY="161.0" prefHeight="32.0" prefWidth="172.0" text="disease" textFill="#2f2708">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="251.0" layoutY="228.0" prefHeight="32.0" prefWidth="172.0" text="date" textFill="#0f2204">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" layoutX="251.0" layoutY="284.0" prefHeight="32.0" prefWidth="188.0" text="time" textFill="#0b4a46">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

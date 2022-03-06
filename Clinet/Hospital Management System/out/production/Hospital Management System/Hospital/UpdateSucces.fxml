@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="363.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hospital.UpdateSuccesController">
+   <children>
+      <Label fx:id="userMsg" layoutX="128.0" layoutY="102.0" prefHeight="84.0" prefWidth="302.0" style="-fx-background-color: #ECF0F1;" text="          UPDATE" textAlignment="JUSTIFY" textFill="#100997">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="196.0" prefHeight="101.0" prefWidth="368.0" style="-fx-background-color: ;" text="      SUCESSFULLY" textFill="#b90a0a">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hospital.DoctorViewAppoinmentPageController">
+   <children>
+      <TableView fx:id="tableView" editable="true" layoutX="135.0" layoutY="280.0" prefHeight="760.0" prefWidth="1030.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="161.0" text="Patient Name" />
+          <TableColumn fx:id="Id" prefWidth="223.0" text="Patient Id" />
+            <TableColumn fx:id="disease" prefWidth="194.0" text="Disease" />
+            <TableColumn fx:id="date" prefWidth="153.0" text="Date" />
+            <TableColumn fx:id="time" prefWidth="125.0" text="Time" />
+            <TableColumn fx:id="edit" prefWidth="173.0" text="GoToEditor" />
+        </columns>
+      </TableView>
+      <Button fx:id="back" layoutX="31.0" layoutY="14.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="36.0" prefWidth="80.0" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="344.0" layoutY="13.0" prefHeight="51.0" prefWidth="408.0" style="-fx-background-color: #E1CA09;" text="   PATIENT APPOINMENT LIST" textFill="#dd3b44">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

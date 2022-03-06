@@ -1,0 +1,9 @@
+SHAHANARA,Shahanara Parvin,parvin@gmail.com,54321,01745964708,FEMALE,48,06/06/1969,MARRIED,Normal Disease,Betuan-Pabna
+AMZAD,Amzad Hossain,amzad@gmail.com,4321,01710135397,MALE,50,03/06/1967,MARRIED,Normal Disease,Butean-Pabna
+Rzib,afds,adfds,123,323,MALE,20,03/11/1998,SINGLE,Normal Disease,ulkjhkj
+123,Asif,kjklj,4564564,56465,MALE,20,6546,DEVORCED,Cancer,654564
+BULBUL,BulbulVai,bulbul@gamil.com,321,0124523,FEMALE,21,03/11/1998,DEVORCED,Normal Disease,Buet-ja;lksjf;lk
+Shawon,Hasebul haa-sj,a;lkjf,123,32113,MALE,21,2.1132,SINGLE,Normal Disease,afds
+kmkm,jkk,jkjkj,kjkk,kkklkl,MALE,jkjkjk,ijiiui,SINGLE,Liver Disease,jkjkj
+A,aa,a,aa,a,MALE,a,a,MARRIED,Normal Disease,a
+ARMAN,eee,eee,123,sdf,MALE,sdsf,sdsf,MARRIED,Normal Disease,sdfs

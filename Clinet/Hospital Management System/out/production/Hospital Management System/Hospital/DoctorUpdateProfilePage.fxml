@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1050.0" style="-fx-background-color: #FDFEFE;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hospital.DoctorUpdateProfilePageController">
+   <children>
+      <Button layoutX="651.0" layoutY="147.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="308.0" style="-fx-background-radius: 15;" textFill="#96a847">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="666.0" layoutY="147.0" prefHeight="57.0" prefWidth="290.0" text="DOCTORS SIGN UP" textFill="#1e8d9e">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="610.0" layoutY="213.0" prefHeight="32.0" prefWidth="152.0" text="Doctor's Name :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="607.0" layoutY="284.0" prefHeight="32.0" prefWidth="152.0" text="Email :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="811.0" layoutY="284.0" prefHeight="32.0" prefWidth="152.0" text="Password :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="607.0" layoutY="365.0" prefHeight="32.0" prefWidth="152.0" text="Contact No :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="811.0" layoutY="365.0" prefHeight="32.0" prefWidth="152.0" text="Doctor's Gender :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="607.0" layoutY="447.0" prefHeight="32.0" prefWidth="152.0" text="Department :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="811.0" layoutY="447.0" prefHeight="32.0" prefWidth="152.0" text="Graduation :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="607.0" layoutY="528.0" prefHeight="32.0" prefWidth="152.0" text="Address :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="811.0" layoutY="528.0" prefHeight="32.0" prefWidth="152.0" text="Designation :" textFill="#a364ae">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="145.0" layoutX="563.0" layoutY="626.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/629814410.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="update" layoutX="685.0" layoutY="635.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="49.0" prefWidth="301.0" text="UPDATE" textFill="#ab9c8b">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="doctor_email" layoutX="626.0" layoutY="324.0" prefHeight="32.0" prefWidth="165.0" />
+      <TextField fx:id="doctor_contact" layoutX="626.0" layoutY="407.0" prefHeight="32.0" prefWidth="165.0" />
+      <TextField fx:id="doctor_designation" layoutX="835.0" layoutY="564.0" prefHeight="32.0" prefWidth="165.0" />
+      <TextField fx:id="doctor_name" layoutX="612.0" layoutY="245.0" prefHeight="32.0" prefWidth="165.0" />
+      <TextField fx:id="doctor_graduation" layoutX="835.0" layoutY="489.0" prefHeight="32.0" prefWidth="165.0" />
+      <ComboBox fx:id="doctor_gendre" layoutX="835.0" layoutY="407.0" prefHeight="32.0" prefWidth="165.0" promptText="Gender" />
+      <ComboBox fx:id="doctor_department" layoutX="626.0" layoutY="489.0" prefHeight="32.0" prefWidth="165.0" promptText="Department" />
+      <TextArea fx:id="doctor_address" layoutX="626.0" layoutY="564.0" prefHeight="57.0" prefWidth="165.0" />
+      <Button fx:id="toback_id" layoutX="87.0" layoutY="50.0" mnemonicParsing="false" onAction="#back_action" prefHeight="44.0" prefWidth="78.0" text="BACK">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#eceeb6" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="backto_home" layoutX="441.0" layoutY="60.0" mnemonicParsing="false" onAction="#backto_home_action" prefHeight="32.0" prefWidth="78.0" style="-fx-background-radius: 12;" text="HOME" textFill="#a82525">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Button fx:id="service_id" layoutX="580.0" layoutY="60.0" mnemonicParsing="false" onAction="#service_action" prefHeight="32.0" prefWidth="78.0" style="-fx-background-radius: 12;" text="SERVICE" textFill="#bf2d2d">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Button fx:id="doctor" layoutX="723.0" layoutY="60.0" mnemonicParsing="false" onAction="#doctor_action" prefHeight="32.0" prefWidth="88.0" style="-fx-background-radius: 12;" text="DOCTOR" textFill="#a82525">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Button fx:id="contact_id" layoutX="872.0" layoutY="60.0" mnemonicParsing="false" onAction="#contact_action" prefHeight="32.0" prefWidth="114.0" style="-fx-background-radius: 12;" text="CONTACT US" textFill="#a82525">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Circle fill="DODGERBLUE" layoutX="415.0" layoutY="76.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="550.0" layoutY="76.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="690.0" layoutY="76.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="840.0" layoutY="76.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="1011.0" layoutY="76.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="100.0" layoutX="134.0" layoutY="146.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="336.0" layoutY="146.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="538.0" layoutY="146.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="740.0" layoutY="146.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="945.0" layoutY="146.0" startX="-100.0" />
+      <Circle fill="DODGERBLUE" layoutX="30.0" layoutY="147.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="236.0" layoutY="146.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="441.0" layoutY="147.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="640.0" layoutY="146.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="844.0" layoutY="146.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="1046.0" layoutY="146.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="158.0" layoutY="147.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="308.0" style="-fx-background-radius: 12;" text="HOSPITAL MANAGEMENT SYSTEM">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="429.0" fitWidth="404.0" layoutX="92.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Logo4.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="password_id" layoutX="826.0" layoutY="324.0" prefHeight="32.0" prefWidth="184.0" />
+   </children>
+</AnchorPane>

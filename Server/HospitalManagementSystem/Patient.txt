@@ -1,0 +1,9 @@
+ROMIZ,Md Romizul Islam,ramiz.khulna@gmail.com,123456,01798238205,MALE,20,20,SINGLE,Normal Disease,Suhrawardy Hall-BUET
+SHAWON,Md. Hasebul Hasen,hasebulhasan97@gmail.com,123,01763263097,MALE,21,02/11/1998,SINGLE,Cancer,buet
+DITU,Oyasiul Islam,oyasiul.islam@gmail.com,ditu,01987698409,MALE,78,78,MARRIED,Heart Disease,pabna
+KAYES,Mohammad Kayes,kayes@gmail.com,kayes,01987664330,MALE,45,45,SINGLE,Infectious Disease,india
+AMZAD,Md.Amzad Hossain,amzad@gmail.com,123,01710135397,MALE,50,50,MARRIED,Normal Disease,Pabna
+Arman,Arman Khondoker,arman1163063@gmail.com,12345,01521122457,MALE,20,20,SINGLE,Normal Disease,Ahsanullah Hall-BUET
+RASEL,Md Kamrul Isalm,rasel@gmail.com,12345,01763263097,MALE,20,20,DEVORCED,Private Disease,BUET
+KAYEM,Md Hasan Al Kayem,kayem@gamil.com,000,01736969878,MALE,20,21,SINGLE,Normal Disease,Suhrawardy_hall_Buet
+S!,df,df,1,df,MALE,df,df,SINGLE,Big Disease,df

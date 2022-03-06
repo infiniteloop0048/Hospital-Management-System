@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hospital.PatientViewLastAppoinmentPageController">
+   <children>
+      <Button fx:id="back" layoutX="21.0" layoutY="30.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="45.0" prefWidth="90.0" text="BACK" />
+      <Label layoutX="240.0" layoutY="3.0" prefHeight="45.0" prefWidth="383.0" text="   LAST APPOINMENT">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="192.0" prefHeight="39.0" prefWidth="119.0" text="Doctor Name :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="268.0" prefHeight="39.0" prefWidth="119.0" text="Disease :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="330.0" prefHeight="39.0" prefWidth="119.0" text="Date :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="404.0" prefHeight="39.0" prefWidth="119.0" text="Time :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="dName" layoutX="361.0" layoutY="197.0" prefHeight="29.0" prefWidth="165.0" text="name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="pDisease" layoutX="355.0" layoutY="273.0" prefHeight="29.0" prefWidth="145.0" text="disease">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="356.0" layoutY="335.0" prefHeight="29.0" prefWidth="152.0" text="date">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" layoutX="362.0" layoutY="409.0" prefHeight="29.0" prefWidth="132.0" text="time">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="update" layoutX="303.0" layoutY="601.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="39.0" prefWidth="90.0" text="Update" />
+   </children>
+</AnchorPane>

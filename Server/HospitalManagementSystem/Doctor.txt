@@ -1,0 +1,5 @@
+RUHAN,Ruhan Islam,ruhan.islam97@gmail.com,12345,01915236985,MALE,Cardiologist,MBBS-DMC,BUET,Medical Officer
+RASEL,Md. Kamrul Islam Rasel,rasel@gamil.com,123,01763263097,MALE,Endocrinologist,MBBS(DMC),Suhrawardy hall,Medicla officer
+ABSER,Abser Uddin,abser@gmail.com,abser,01987457920,MALE,Cardiologist,FCPS,dhaka,medical officer
+SHAHANARA,Mst. Shahanare Parvin,shahanara@gmail.com,123,01745964708,FEMALE,Gynecologist,MBBS(DMC)-FCPS(USA),Pabna,Medical Officer
+TUHIN,Nazmul Tuhin,nazmul@gmail.com,12345,nazmul@gmail.com,MALE,Gynecologist,MBBS,Khulna,medicla officer
